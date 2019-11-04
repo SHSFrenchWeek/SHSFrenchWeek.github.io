@@ -1,3 +1,4 @@
+permalink: /index.html
 <h1>French Facts for 11/4/19</h1>
 <ol>
    <li>France is the world’s most visited country</li>
