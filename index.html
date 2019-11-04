@@ -3,7 +3,7 @@
    <head>
       <style>
          body {
-            backround-color:DodgerBlue;
+            backround-color:#00BFFF;
          }
          h1 {
             font-size:50px;
@@ -18,10 +18,27 @@
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
          }
+         html, body {
+            height: 100%;
+            margin:0;
+            padding:0;
+         }
+         div {
+            position:relative;
+            height: 100%;
+            width:100%;
+         }
+         div img {
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin:auto;
+         }
       </style>
    </head>
    <body>
-      <img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcountrydigest.org%2Fwp-content%2Fuploads%2F2016%2F06%2FFrance-flag.png&f=1&nofb=1">
       <h1>French Facts for 11/4/19</h1>
          <ol>
             <li>France is the world’s most visited country</li>
@@ -35,5 +52,6 @@
             <li>A French writer wrote the world’s longest book</li>
             <li>The first heart transplant took place in France</li>
          </ol>
+      <div><img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcountrydigest.org%2Fwp-content%2Fuploads%2F2016%2F06%2FFrance-flag.png&f=1&nofb=1"></div>
       </body>
 </html>
